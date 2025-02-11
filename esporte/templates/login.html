@@ -1,0 +1,71 @@
+{% load static %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+<link rel="stylesheet" href="{% static 'esporte/css/login.css' %}">
+
+
+
+
+
+   
+    <div class="main-container centered-flex ">
+
+        <div class="form-container">
+
+            <div class="icon fa fa-user"></div>
+
+            <form class="centered-flex">
+
+                <div class="title">Conectar</div>
+
+                <div class="msg"></div>
+
+                <div class="field">
+
+                    <input type="text" placeholder="Apelido" id="uname">
+
+                    <span class="fa fa-user"></span>
+
+                </div>
+
+                <div class="field">
+
+                    <input type="email" placeholder="email" id="email">
+
+                    <span class="fa fa-lock"></span>
+
+                </div>
+
+                <div class="action centered-flex">
+
+                    <label for="remember" class="centered-flex">
+
+                        
+
+                    </label>
+
+                    
+
+                </div>
+
+                <div class="btn-container">
+                   
+                    <a href="{% url 'home'%}" type="submit" id="login-btn" value="login">Login</a>
+                    
+
+
+                </div>
+
+                
+
+            </form>
+            
+
+        </div>
+       
+        <script src="{% static 'esporte/js/teste.js' %}"></script>
+
+    </div>
+ 

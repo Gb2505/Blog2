@@ -1,0 +1,26 @@
+{% load static %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Pagina Inicial {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'esporte/css/styles.css' %}">
+    
+</head>
+
+<body>
+    <header>
+        {% include 'componentes/_header.html'%}
+    </header>
+    <main>
+        {% block content %} {%endblock%}
+    </main>
+    <script src="{% static 'esporte/js/scripts.js' %}"></script>
+</body>
+
+</html>
