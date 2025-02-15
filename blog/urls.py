@@ -16,11 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from esporte.views import inicio
-from esporte.views import login
-from esporte.views import contato
-from esporte.views import basquete
-from esporte.views import fut
+from esporte.views import fut,volei,basquete,contato,login,inicio
 
 
 
@@ -30,7 +26,8 @@ urlpatterns = [
     path('', login, name=''),
     path('contato/', contato, name='contato'), 
     path('basquete/', basquete, name="basquete" ), 
-    path('fut/', fut, name= 'fut')
+    path('fut/', fut, name= 'fut'),
+    path('volei/',volei, name='volei')
     
 
 ]

@@ -1,5 +1,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+
+
+
+
+
 .main-container {
 
     min-height: 100vh;
@@ -7,6 +12,10 @@
     min-width: 450px;
 
     font-family: 'calibri';
+    
+    background-color: #151f29;
+
+ 
 
 }
 
@@ -17,6 +26,8 @@
     align-items: center;
 
     justify-content: center;
+
+    background-color: #151f29;
 
 }
 

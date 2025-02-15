@@ -18,8 +18,11 @@
         {% include 'componentes/_header.html'%}
     </header>
     <main>
-        {% block content %} {%endblock%}
+        {% block content %}  {%endblock%}
     </main>
+    <footer class="fixed-bottom text-center text-light">        
+     {% include 'componentes/_footer.html' %}   
+    </footer>
     <script src="{% static 'esporte/js/scripts.js' %}"></script>
 </body>
 

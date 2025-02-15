@@ -30,11 +30,14 @@ def contato(request):
     return render(request, 'contato.html', {'form': form})
     
     #INFORMA COMO O FORMULARIO SERA CRIADO
-    formulari = ContatoForm()
+    formulario = ContatoForm()
     return render(request, 'contato.html', {'form': formulario})
 
 
 def fut(request):
     return render(request, 'fut.html')
+
+def volei(request):
+    return render(request, 'volei.html')
 
 

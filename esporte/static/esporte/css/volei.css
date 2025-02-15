@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #151f29;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    display: block;
+}
+
+.geral{
+    display: inline-flex;
+    background: #151f29;
+    height: 500%;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 120px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+.subtitulo2{
+    color: #F2F2F2;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+
+.titulo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 3px;
+    color: #F2F2F2;
+    height: 4vh;
+    width: 950px;
+    margin: 20px;
+}
+
+.escrever{
+    font-size: 25px;
+    color: #F2F2F2;
+    
+   
+}
+
+.foto1{ 
+    display: flex;
+   
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.tempo{
+    color:#F2F2F2
+}
+
+.autor{
+    color: white;
+}
+
+
+

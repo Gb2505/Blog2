@@ -10,16 +10,47 @@
 
 <link rel="stylesheet" href="{% static 'esporte/css/inicio.css' %}">
 
-<H1>PAGINA DE INICIO</H1> 
+<H1 class="container">PAGINA INICIAL</H1> 
+<div class="emoji"><img src="{% static 'esporte/img/emoji.jpg' %}" alt="emoji" width="250px" ></div>
 
-<body>
-<div class="wrapper">
-    <div class="card card1"></div>
-    <div class="card card2"></div>
-    <div class="card card3"></div>
-    <div class="card card4"></div>
-</div>
-</body>
+<main>
+      <!-- Seção sobre o Blog -->
+      <section class="about-blog">
+        <h2>Bem-vindo ao Blog Esportivo!</h2>
+        <p>Este blog é o seu ponto de encontro para tudo sobre esportes! Aqui, você encontrará notícias, análises e atualizações sobre os principais esportes: <strong>Futebol</strong>, <strong>Basquete</strong> e <strong>Vôlei</strong>.</p>
+        <p>Nosso objetivo é trazer conteúdo de qualidade para os apaixonados por esportes, com artigos sobre campeonatos, jogos emocionantes e as grandes estrelas que fazem a diferença nas quadras e campos.</p>
+    </section>
+
+    <!-- Seções de Categorias -->
+    <section class="sports">
+        <h2>Esportes em Destaque</h2>
+        
+        <!-- Futebol -->
+        <div class="sport-category">
+            <h3>Futebol</h3>
+            <p>Acompanhe as últimas notícias do futebol nacional e internacional. Desde os campeonatos locais até as grandes ligas, aqui você encontra tudo sobre o mundo da bola.</p>
+            <a href="{% url 'fut' %}">Leia mais sobre Futebol</a>
+        </div>
+        
+        <!-- Basquete -->
+        <div class="sport-category">
+            <h3>Basquete</h3>
+            <p>Notícias, destaques e resultados das principais ligas de basquete ao redor do mundo. Fique por dentro das jogadas incríveis e dos grandes astros da NBA e outros campeonatos.</p>
+            <a href="{% url 'basquete' %}">Leia mais sobre Basquete</a>
+        </div>
+
+        <!-- Vôlei -->
+        <div class="sport-category">
+            <h3>Vôlei</h3>
+            <p>O vôlei também tem seu espaço aqui! Acompanhe as competições nacionais e internacionais, e fique por dentro dos melhores times e atletas da modalidade.</p>
+            <a href="{% url 'volei' %}">Leia mais sobre Vôlei</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+
+</footer>
         
 
     

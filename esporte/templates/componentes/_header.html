@@ -2,9 +2,9 @@
 
     <button class="menu-btn fa fa-chevron-left"></button>
 
-    <a href="/" class="logo-wrapper">
+    <a href="#" class="logo-wrapper">
         <span class="fa-solid fa-medal"></span>
-        <span class="brand-name">Nome do blog</span>
+        <span class="brand-name">Blog Esportivo!</span>
     </a>
 
     <div class="separator"></div>
@@ -14,24 +14,31 @@
         </li>
 
         <li><a href="{% url 'fut' %}"><span class="icon fa-solid fa-futbol"></span><span class="item-name">Futebol</span></a>
-            <span class="tooltip">Pesquisar</span>
+            <span class="tooltip">futebol</span>
         </li>
 
-        <li><a href=""><span class="icon fa-solid fa-volleyball"></span><span class="item-name">Volei</span></a>
-            <span class="tooltip">análise</span>
+        <li><a href="{% url 'volei' %}"><span class="icon fa-solid fa-volleyball"></span><span class="item-name">Volei</span></a>
+            <span class="tooltip">volei</span>
         </li>
 
         <li><a href="{% url 'basquete' %}"><span class="icon fa-solid fa-basketball"></span><span class="item-name">Basquete</span></a>
-            <span class="tooltip">tabela de classificação</span>
+            <span class="tooltip">basquete</span>
         </li>
 
         <li><a href="{% url 'contato' %}"><span class="icon fa fa-comment-dots"></span><span class="item-name">Contato</span></a>
-            <span class="tooltip">Account</span>
+            <span class="tooltip">contato</span>
         </li>
 
         <li><a href="{% url ''%}"><span class="fa-solid fa-right-from-bracket"></span><span class="item-name">Sair</span></a>
-            <span class="tooltip">Contact</span>
+            <span class="tooltip">sair</span>
         </li>
+
+     
     </ul>
+   
+   
 
 </aside>
+
+
+
